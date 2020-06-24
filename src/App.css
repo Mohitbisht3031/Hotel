@@ -36,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+.center {
+  display: flex;
+  justify-content: center;
+}
+.flex-container {
+  padding: 0;
+  /* margin: 150; */
+  list-style: none;
+  /* border: 1px solid silver; */
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+/* .center {
+  display: flex;
+  justify-content: center;
+} */
+
+/* Nav bar css */
+nav ul li {
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 4px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+}
+nav ul li :hover {
+  color: white;
+  transform: scale(1.1);
+  transition: 0.65s;
+}
+.htl {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.li {
+  margin-right: 800px;
+}
+/* search and opions */
+.search {
+  margin-left: 850px;
+}
+@media (max-width: 952px) {
+  .li {
+    margin-right: 100px;
+  }
+  .home {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin-right: 100px;
+  }
+  .search {
+    margin-left: 180px;
+  }
+}
